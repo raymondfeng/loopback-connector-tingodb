@@ -1,6 +1,6 @@
 module.exports = require('should');
 
-var Schema = require('jugglingdb').Schema;
+var Schema = require('loopback-data').Schema;
 var path = require('path');
 
 global.getSchema = function() {

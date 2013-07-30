@@ -15,6 +15,16 @@ User = db.define('User1', {
     notes: {type: []}
 });
 
-User.create({name: 'Ray', notes: ['A']}, function(err, result) {
-   User.find({where: {id: result.id}}, console.log);
+User.create({name: 'Ray', email: 'x@y.com', notes: ['A']}, function(err, result) {
+    User.findById(result.id, console.log);
+    User.findOne(function(e, u) {
+        User.findOne({where: {
+            id: u.id
+            // email: 'x@y.com'
+        }}, function(err, user) {
+            console.log(user);
+        });
+    });
+
+
 });
