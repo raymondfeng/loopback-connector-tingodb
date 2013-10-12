@@ -1,5 +1,8 @@
 # TingoDB connector for LoopBack
 
+- [LoopBack](http://docs.strongloop.com/loopback-datasource-juggler/#loopback-datasource-and-connector-guide)
+- [TingoDB](https://github.com/sergeyksv/tingodb)
+
 ## Usage
 
 To use it you need `loopback-datasource-juggler@1.0.x`.
