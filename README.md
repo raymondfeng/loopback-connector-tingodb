@@ -1,42 +1,16 @@
-## JugglingDB-MongoDB [![Build Status](https://travis-ci.org/jugglingdb/mongodb-adapter.png)](https://travis-ci.org/jugglingdb/mongodb-adapter)
-
-MongoDB adapter for jugglingdb.
+# TingoDB connector for LoopBack
 
 ## Usage
 
-To use it you need `jugglingdb@0.2.x`.
-
-1. Setup dependencies in `package.json`:
-
-    ```json
-    {
-      ...
-      "dependencies": {
-        "jugglingdb": "0.2.x",
-        "jugglingdb-mongodb": "latest"
-      },
-      ...
-    }
-    ```
-
-2. Use:
-
-    ```javascript
-        var Schema = require('jugglingbd').Schema;
-        var schema = new Schema('mongodb');
-        ...
-    ```
+To use it you need `loopback-datasource-juggler@1.0.x`.
 
 ## Running tests
-
-Make sure you have mongodb server running on default port, username: `travis`,
-password: `test`, database: `myapp`
 
     npm test
 
 ## MIT License
 
-    Copyright (C) 2012 by Anatoliy Chakkaev
+    Copyright (C) 2013 by Raymond Feng
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
